@@ -11,11 +11,11 @@ public class DamkaBoard {
 	                }
 	                System.out.print("* ");
 	            }
+			if (i%2 != 1) {
+				System.out.println(" ");
+			} else {
+		        	System.out.println();
+		        }
 		}
-		if (i%2 != 1) {
-			System.out.println(" ");
-		} else {
-	        	System.out.println();
-	        }
 	}
 }
